@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -12,4 +18,28 @@
 
 .pacifico {
   font-family: 'Pacifico', cursive;
+}
+
+.reem {
+  font-family: 'Reem Kufi', sans-serif;
+}
+
+.lal {
+  font-family: 'Lalezar', cursive;
+}
+
+.aref {
+  font-family: 'Aref Ruqaa', serif;
+}
+
+.gulzar {
+  font-family: 'Gulzar', serif;
+}
+
+.title {
+  font-family: 'Monoton', cursive;
+}
+
+.head {
+  font-family: 'Dela Gothic One', cursive;
 }

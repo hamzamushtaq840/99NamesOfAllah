@@ -1,9 +1,10 @@
+import Main from '@/components/main/Main'
 import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className='absolute'>
-      sad
+      <Main />
     </div>
   )
 }
