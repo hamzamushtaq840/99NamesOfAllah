@@ -16,7 +16,19 @@ const Main = () => {
 
         }}
       />
-      <p className='z-30 text-5xl w-[50%] leading-[1.4]  text-center text-white absolute top-[30%] left-[50%] translate-x-[-50%] translate-y-[-30%] flex flex-col title'>Beyond Infinity<span className=' mt-2'>The 99 Names of Allah</span></p>
+      <div className='z-30 text-5xl w-[50%] leading-[1.4] text-center text-white absolute top-[30%] left-[50%] translate-x-[-50%] translate-y-[-30%] flex flex-col title'>
+        <div className='flex justify-center items-center gap-4'>
+          <span>Beyond Infinity</span>
+          <Image
+            src="/infinity.svg"
+            quality={100}
+            width={80}
+            height={20}
+            style={{ color: 'yellow' }}
+          />
+        </div>
+        <h1 className='mt-2'>The 99 Names of Allah</h1>
+      </div>
     </div>
   )
 }
