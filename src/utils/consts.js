@@ -37,27 +37,27 @@ export const names = [
   },
   {
     image: 'https://i.pinimg.com/750x/91/b2/d5/91b2d572151f1d6e49720b9bad0940f9.jpg',
-    imageBrightness: '40%',
+    imageBrightness: '45%',
     arabicName: 'ٱلْمُؤْمِنُ',
     englishName: 'AL-MU’MIN',
     meaning: 'The One Who gives Emaan and Security'
   },
   {
-    image: 'https://framerusercontent.com/projects/j21xD79ZUpoYvUV3Tmz6/assets/MWZd2YauvUZj9EJen6Qdrbv0fo.jpg?Expires=1687631954&Key-Pair-Id=APKAIDY47RVYVKGA6NJQ&Signature=eAUfs-OTGmCrYFCVQMDI5HJ7it3PW934P-RGr6Kzk6QP3vr5btE2T99-KUKO6P16HtLy3cXXkOOCzdL~84lzk-45LeGGGt9VrXDDSZLro~ZOiDe9Z92xWS6sgSjRTe987AYF8XS7Rck5pDUirKK2xVwFp1FJkfP2pY0o172QYVI-gfl~IQvAHJtJxDs~l-j8VlS7adoBM5UWrwYRd7PuxG5JvpyCYaFtjz6Nu3g~Gly9fwy0-~OPIzWsrF9ZfMbtABk4ghBLK4VGubuFO1V78~eT6PRYnI51oUvXZw1OlZvMT~b0n7ksOdj8iy-iIv0NzZ5ukJiksa-Xq-xmpcuIvw__',
+    image: 'https://i.pinimg.com/564x/ef/c3/29/efc32913100d6d00a95b95b285c777b1.jpg',
     imageBrightness: '40%',
     arabicName: 'ٱلْمُهَيْمِنُ',
     englishName: 'AL-MUHAYMIN',
     meaning: 'The Guardian, The Witness, The Overseer'
   },
   {
-    image: 'https://framerusercontent.com/projects/j21xD79ZUpoYvUV3Tmz6/assets/MWZd2YauvUZj9EJen6Qdrbv0fo.jpg?Expires=1687631954&Key-Pair-Id=APKAIDY47RVYVKGA6NJQ&Signature=eAUfs-OTGmCrYFCVQMDI5HJ7it3PW934P-RGr6Kzk6QP3vr5btE2T99-KUKO6P16HtLy3cXXkOOCzdL~84lzk-45LeGGGt9VrXDDSZLro~ZOiDe9Z92xWS6sgSjRTe987AYF8XS7Rck5pDUirKK2xVwFp1FJkfP2pY0o172QYVI-gfl~IQvAHJtJxDs~l-j8VlS7adoBM5UWrwYRd7PuxG5JvpyCYaFtjz6Nu3g~Gly9fwy0-~OPIzWsrF9ZfMbtABk4ghBLK4VGubuFO1V78~eT6PRYnI51oUvXZw1OlZvMT~b0n7ksOdj8iy-iIv0NzZ5ukJiksa-Xq-xmpcuIvw__',
-    imageBrightness: '40%',
+    image: 'https://i.pinimg.com/236x/ef/36/0a/ef360a9e971b2d965d72bb4a7556b48d.jpg',
+    imageBrightness: '50%',
     arabicName: 'ٱلْعَزِيزُ',
     englishName: 'AL-AZEEZ',
     meaning: 'The All Mighty'
   },
   {
-    image: 'https://framerusercontent.com/projects/j21xD79ZUpoYvUV3Tmz6/assets/MWZd2YauvUZj9EJen6Qdrbv0fo.jpg?Expires=1687631954&Key-Pair-Id=APKAIDY47RVYVKGA6NJQ&Signature=eAUfs-OTGmCrYFCVQMDI5HJ7it3PW934P-RGr6Kzk6QP3vr5btE2T99-KUKO6P16HtLy3cXXkOOCzdL~84lzk-45LeGGGt9VrXDDSZLro~ZOiDe9Z92xWS6sgSjRTe987AYF8XS7Rck5pDUirKK2xVwFp1FJkfP2pY0o172QYVI-gfl~IQvAHJtJxDs~l-j8VlS7adoBM5UWrwYRd7PuxG5JvpyCYaFtjz6Nu3g~Gly9fwy0-~OPIzWsrF9ZfMbtABk4ghBLK4VGubuFO1V78~eT6PRYnI51oUvXZw1OlZvMT~b0n7ksOdj8iy-iIv0NzZ5ukJiksa-Xq-xmpcuIvw__',
+    image: 'https://i.pinimg.com/564x/5e/64/23/5e6423c6be8e66b73d378c7eb9354688.jpg',
     imageBrightness: '40%',
     arabicName: 'ٱلْجَبَّارُ',
     englishName: 'AL-JABBAR',

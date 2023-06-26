@@ -2,9 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='text-[40px] z-20 fixed left-1/2 transform translate-x-[-50%] top-[10px] text-white flex items-center gap-2'>
-      {/* 99 Names of Allah <span className='gulzar text- '>ﷻ</span> */}
-      {/* development      */}
+    <nav className='header text-[40px] h-[80px] w-full z-20 pl-2 text-white fixed transition-all duration-500 ease-out will-change-transform transform  top-0 flex items-center gap-2'>
+      <h1 className='text-[18px] silk'>99NamesOfAllah</h1>
     </nav>
   )
 }
