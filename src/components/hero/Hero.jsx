@@ -23,7 +23,7 @@ const Hero = () => {
           duration: 1.5,
           ease: 'cubic-text',
         },
-        // delay
+        delay
       );
     });
 
