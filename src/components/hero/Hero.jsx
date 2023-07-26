@@ -1,34 +1,38 @@
-'use client'
-import React, { useEffect } from "react"
-import Image from "next/image"
-import gsap from "gsap"
-import { CustomEase } from 'gsap/dist/CustomEase'
+import React, { useEffect, useRef } from "react";
+import Image from "next/image";
+import gsap from 'gsap';
+import { CustomEase } from 'gsap/CustomEase';
 
 gsap.registerPlugin(CustomEase);
 CustomEase.create('cubic-text', '0.25, 1, 0.5, 1');
 
 const Hero = () => {
-  useEffect(() => {
-    const titles = document.querySelectorAll('.h_title');
-    const tl = gsap.timeline({ defaults: { duration: 1 } });
+  const titleRef = useRef([]);
 
-    titles.forEach((title, index) => {
+  useEffect(() => {
+    titleRef.current.forEach((title, index) => {
       const el = title.querySelectorAll('span span');
       const delay = index * 0.08;
 
-      tl.to(
+      gsap.to(
         el,
         {
           y: 0,
           duration: 1.5,
           ease: 'cubic-text',
-        },
-        delay
+          delay: delay
+        }
       );
     });
 
-    return () => { };
   }, []);
+
+  // add this function to handle adding refs
+  const addToRefs = (el) => {
+    if (el && !titleRef.current.includes(el)) {
+      titleRef.current.push(el);
+    }
+  }
 
   return (
     <div className="z-10 h-screen w-full">
@@ -44,7 +48,7 @@ const Hero = () => {
       />
       <div className="title absolute left-[50%] flex h-screen w-full translate-x-[-50%] flex-col text-center text-5xl xsm:text-[24px] leading-[1.4] text-white">
         <div className="relative top-[37%] flex translate-y-[-37%] flex-col items-center">
-          <div className="h_title">
+          <div className="h_title" ref={addToRefs}>
             <span className="overflow-hidden xsm:gap-2 flex items-center gap-4">
               <span className="translate-y-full">
                 <h2>Beyond Infinity</h2>
@@ -61,7 +65,7 @@ const Hero = () => {
               </span>
             </span>
           </div>
-          <div className="h_title">
+          <div className="h_title" ref={addToRefs}>
             <span className="overflow-hidden flex items-center gap-4">
               <span className="translate-y-full">
                 <h2 className="flex gap-3 items-center xsm:gap-[3px]">
@@ -71,7 +75,7 @@ const Hero = () => {
               </span>
             </span>
           </div>
-          <div className="h_title">
+          <div className="h_title" ref={addToRefs}>
             <span className="overflow-hidden flex items-center gap-4">
               <span className="translate-y-full">
                 <div className="silk mt-[30px] flex w-[900px] flex-col xsm:w-[320px] xsm:text-base text-2xl text-[#ccc]">
@@ -89,7 +93,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Hero
+export default Hero;

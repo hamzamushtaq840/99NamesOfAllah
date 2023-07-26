@@ -7,7 +7,7 @@ const Names = () => {
     <div className="flex items-center  justify-center  gap-[25px]">
       <div className="grid grid-cols-3 gap-[40px] xsm:grid-cols-1 xsm:gap-[20px]">
         {names.map((val, index) => (
-          <div className="relative transform cursor-pointer transition-transform duration-500 ease-in-out hover:scale-105">
+          <div key={index} className="relative transform cursor-pointer transition-transform duration-500 ease-in-out hover:scale-105">
             <Image src={val.image} quality={100} alt="The glimpse of Allah's Majesty" width={415} height={0} className="h-[527px] max-h-[527px] rounded-sm xsm:h-[400px] xsm:max-h-[400px] xsm:w-[320px] "
               style={{
                 objectFit: "cover",

@@ -15,7 +15,7 @@ const PageContext = createContext({
 });
 
 export const PageProvider = ({ children }) => {
-  const [lenis, setLenis] = useState();
+  const [lenis, setLenis] = useState(null);
   const reqIdRef = useRef();
 
   useEffect(() => {
@@ -76,7 +76,7 @@ export const PageProvider = ({ children }) => {
     () => ({
       lenis,
     }),
-    []
+    [lenis]
   );
 
   return (
