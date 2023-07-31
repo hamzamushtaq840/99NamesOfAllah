@@ -127,3 +127,38 @@ body.scrolled .header {
 .has-sticky {
   padding-top: auto;
 }
+
+.hadees-container
+{
+overflow-x: hidden;
+}
+
+.fade-out-left {
+  animation: fade-out-left 1s ease;
+}
+
+.fade-in-right {
+  animation: fade-in-right 1.5s ease;
+}
+
+@keyframes fade-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out-left {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+}

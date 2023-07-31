@@ -1,5 +1,6 @@
 export const names = [
   {
+    id: 1,
     image: 'https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg',
     imageBrightness: '40%',
     arabicName: 'ٱلْرَّحْمَـانُ',
@@ -7,6 +8,7 @@ export const names = [
     meaning: 'The Most or Entirely Merciful'
   },
   {
+    id: 2,
     image: 'https://i.pinimg.com/originals/a3/22/53/a32253bc408d53b57672dc0880856302.jpg',
     imageBrightness: '45%',
     arabicName: 'ٱلْرَّحِيْمُ',
@@ -14,6 +16,7 @@ export const names = [
     meaning: 'The Bestower of Mercy'
   },
   {
+    id: 3,
     // image: 'https://i.pinimg.com/originals/3c/d6/47/3cd647651b5015eeec5a1d1982e6b31a.jpg',
     image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
@@ -22,6 +25,7 @@ export const names = [
     meaning: 'The King and Owner of Dominion'
   },
   {
+    id: 4,
     image: 'https://i.pinimg.com/564x/a8/21/83/a82183f88a40aef6e47629b1fb3cec96.jpg',
     imageBrightness: '45%',
     arabicName: 'ٱلْقُدُّوسُ',
@@ -29,6 +33,7 @@ export const names = [
     meaning: 'The Absolutely Pure'
   },
   {
+    id: 5,
     image: 'https://i.pinimg.com/564x/86/f9/d3/86f9d34a8f6ae41717dfa98e4a8e7eaa.jpg',
     imageBrightness: '40%',
     arabicName: 'ٱلْسَّلَامُ',
