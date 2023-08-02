@@ -5,7 +5,8 @@ export const names = [
     imageBrightness: '40%',
     arabicName: 'ٱلْرَّحْمَـانُ',
     englishName: 'AR-RAHMAAN',
-    meaning: 'The Most or Entirely Merciful'
+    meaning: 'The Most or Entirely Merciful',
+    title: 'Ar-Rahmaan Meaning: The Most or Entirely Merciful (99 Names of Allah)'
   },
   {
     id: 2,
@@ -177,22 +178,22 @@ export const names = [
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabicName: 'ٱلْمُذِلُّ',
-    englishName: 'AL-MUDHILL',
-    meaning: 'The Humiliator'
+    englishName: 'AL-MUZIL',
+    meaning: 'The Dishonourer, The Humiliator'
   },
   {
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabicName: 'ٱلْسَّمِيعُ',
     englishName: 'AS-SAMEE’',
-    meaning: 'The All Hearing'
+    meaning: 'The All-Hearing'
   },
   {
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabicName: 'ٱلْبَصِيرُ',
     englishName: 'AL-BASEER',
-    meaning: 'The All Seeing'
+    meaning: 'The All-Seeing'
   },
   {
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
@@ -401,7 +402,7 @@ export const names = [
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabicName: 'ٱلْمُحْصِى',
-    englishName: 'AL-MUHSI',
+    englishName: 'AL-MUHSEE',
     meaning: 'The Accounter, The Numberer of All'
   },
   {
@@ -415,7 +416,7 @@ export const names = [
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabicName: 'ٱلْمُعِيدُ',
-    englishName: 'AL-MUEED',
+    englishName: 'AL-MU’ID',
     meaning: 'The Restorer, The Reinstater Who Brings Back All'
   },
   {
@@ -506,7 +507,7 @@ export const names = [
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabicName: 'ٱلْمُؤَخِّرُ',
-    englishName: 'AL-MUAKHKHIR',
+    englishName: 'AL-MU’AKHKHIR',
     meaning: 'The Delayer, He who puts far away'
   },
   {
@@ -527,7 +528,7 @@ export const names = [
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabicName: 'ٱلظَّاهِرُ',
-    englishName: 'AZ-ZAAHIR',
+    englishName: 'AZ-DHAAHIR',
     meaning: 'The Manifest, The Evident, The Outer'
   },
   {
@@ -536,6 +537,146 @@ export const names = [
     arabicName: 'ٱلْبَاطِنُ',
     englishName: 'AL-BAATIN',
     meaning: 'The Hidden, The Unmanifest, The Inner'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْوَالِي',
+    englishName: 'AL-WAALI',
+    meaning: 'The Governor, The Patron'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْمُتَعَالِي',
+    englishName: 'AL-MUTA’ALI',
+    meaning: 'The Self Exalted'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْبَرُّ',
+    englishName: 'AL-BARR',
+    meaning: 'The Source of Goodness, the Kind Benefactor'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْتَّوَّابُ',
+    englishName: 'AT-TAWWAB',
+    meaning: 'The Ever-Pardoning, The Relenting'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْمُنْتَقِمُ',
+    englishName: 'AL-MUNTAQIM',
+    meaning: 'The Avenger'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْعَفُوُّ',
+    englishName: 'AL-‘AFUWW',
+    meaning: 'The Pardoner'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْرَّؤُفُ',
+    englishName: 'AR-RA’OOF',
+    meaning: 'The Most Kind'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'مَالِكُ ٱلْمُلْكُ',
+    englishName: 'MAALIK-UL-MULK',
+    meaning: 'Master of the Kingdom, Owner of the Dominion'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ذُو ٱلْجَلَالِ وَٱلْإِكْرَامُ',
+    englishName: 'DHUL-JALAALI WAL-IKRAAM',
+    meaning: 'Possessor of Glory and Honour, Lord of Majesty and Generosity'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْمُقْسِطُ',
+    englishName: 'AL-MUQSIT',
+    meaning: 'The Equitable, the Requiter'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْجَامِعُ',
+    englishName: 'AL-JAAMI’',
+    meaning: 'The Gatherer, the Uniter'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْغَنيُّ',
+    englishName: 'AL-GHANIYY',
+    meaning: 'The Self-Sufficient, The Wealthy'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْمُغْنِيُّ',
+    englishName: 'AL-MUGHNI',
+    meaning: 'The Enricher'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْمَانِعُ',
+    englishName: 'AL-MANI’',
+    meaning: 'The Withholder'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْضَّارُ',
+    englishName: 'AD-DHARR',
+    meaning: 'The Distresser'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْنَّافِعُ',
+    englishName: 'AN-NAFI’',
+    meaning: 'The Propitious, the Benefactor'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْنُّورُ',
+    englishName: 'AN-NUR',
+    meaning: 'The Light, The Illuminator'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْهَادِي',
+    englishName: 'AL-HAADI',
+    meaning: 'The Guide'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْبَدِيعُ',
+    englishName: 'AL-BADEE’',
+    meaning: 'The Incomparable Originator'
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',
+    imageBrightness: '40%',
+    arabicName: 'ٱلْبَاقِي',
+    englishName: 'AL-BAAQI',
+    meaning: 'The Ever-Surviving, The Everlasting'
   },
   {
     image: 'https://images.unsplash.com/photo-1606654749802-538261d829b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fG11c2xpbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60',

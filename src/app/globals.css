@@ -164,3 +164,26 @@ body.scrolled .header {
     opacity: 0;
   }
 }
+
+.image-box {
+  overflow: hidden;
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.image-box:hover {
+  transform: scale(1.03);
+}
+
+.image-box:hover span {
+  display: block;
+}
+
+.image-box .img {
+  transition: all 1s;
+  transform: scale(1);
+}
+
+.image-box:hover .img {
+  transform: scale(1.07);
+}

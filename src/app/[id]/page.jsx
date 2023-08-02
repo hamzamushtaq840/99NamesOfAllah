@@ -1,10 +1,9 @@
 import { names } from "@/utils/consts";
 
 export async function generateMetadata({ params }) {
-    const name = names.find((val) => { return (val.id.toString() === params.id.toString()) })
-
+    const name = names.find((val) => { return (val.englishName.toLocaleLowerCase() === params.id.toLocaleLowerCase()) })
     return {
-        title: name?.englishName,
+        title: name?.title,
         description: name?.meaning,
     };
 }
@@ -14,7 +13,7 @@ const SingleName = (params) => {
 
     return (
         <div className="text-white">
-            Gynarating dynamic meta data
+            Gynarating dynamic meta data (NEW)
         </div>
     )
 }

@@ -1,3 +1,4 @@
+import Children from '@/components/Children';
 import Navbar from '@/components/navbar/Navbar';
 import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
@@ -19,7 +20,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {/* <PageProvider> */}
         <Navbar />
-        {children}
+        <Children>
+          {children}
+        </Children>
         <Analytics />
         {/* </PageProvider> */}
       </body>
