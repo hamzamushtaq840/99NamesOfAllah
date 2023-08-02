@@ -1,10 +1,10 @@
 'use client';
-import './globals.css'
-import { Inter } from 'next/font/google'
-import { PageProvider } from '@/context/pageContext'
-import Navbar from '@/components/navbar/Navbar'
-import Head from "next/head";
+import Navbar from '@/components/navbar/Navbar';
+import { PageProvider } from '@/context/pageContext';
 import { Analytics } from '@vercel/analytics/react';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,8 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
+        <meta name="google-site-verification" content="sgu7AYl82pjqRA5kxBQyfIoGY_M7uPpMetTozLiySP4" />
       </Head>
       <body className={inter.className}>
         <PageProvider>
