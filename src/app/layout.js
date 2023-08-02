@@ -1,4 +1,3 @@
-'use client'
 import Navbar from '@/components/navbar/Navbar';
 import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
