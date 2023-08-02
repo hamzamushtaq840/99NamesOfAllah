@@ -3,7 +3,6 @@ import Navbar from '@/components/navbar/Navbar';
 import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import { PageProvider } from '@/context/pageContext';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,11 +18,11 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="sgu7AYl82pjqRA5kxBQyfIoGY_M7uPpMetTozLiySP4" />
       </head>
       <body className={inter.className}>
-        <PageProvider>
-          <Navbar />
-          {children}
-          <Analytics />
-        </PageProvider>
+        {/* <PageProvider> */}
+        <Navbar />
+        {children}
+        <Analytics />
+        {/* </PageProvider> */}
       </body>
     </html>
   )
