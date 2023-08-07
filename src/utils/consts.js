@@ -3,10 +3,10 @@ export const names = [
     id: 1,
     image: 'https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg',
     imageBrightness: '40%',
-    arabicName: 'ٱلْرَّحْمَـانُ',
+    arabicName: 'ٱلرَّحْمَـٰنُ',
     englishName: 'AR-RAHMAAN',
     meaning: 'The Most or Entirely Merciful',
-    title: 'Ar-Rahmaan Meaning: The Most or Entirely Merciful (99 Names of Allah)'
+    title: 'Ar Rahmaan Meaning: The Most or Entirely Merciful (99 Names of Allah)'
   },
   {
     id: 2,
@@ -14,7 +14,8 @@ export const names = [
     imageBrightness: '45%',
     arabicName: 'ٱلْرَّحِيْمُ',
     englishName: 'AR-RAHEEM',
-    meaning: 'The Bestower of Mercy'
+    meaning: 'The Bestower of Mercy',
+    title: 'Ar-Rahmaan Meaning: The Most or Entirely Merciful (99 Names of Allah)'
   },
   {
     id: 3,

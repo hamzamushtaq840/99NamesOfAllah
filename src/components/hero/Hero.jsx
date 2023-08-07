@@ -36,10 +36,10 @@ const Hero = () => {
   }
 
   return (
-    <div className="z-10 h-screen w-full">
+    <section className="z-10 h-screen w-full">
       <Image
         src="https://images.unsplash.com/photo-1628521495179-ca4448a584d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-        quality={100}
+        // quality={100}
         fill
         priority
         sizes="100vw"
@@ -57,7 +57,7 @@ const Hero = () => {
               <span className="translate-y-[170%] xsm:translate-y-[200%]">
                 <Image
                   src="/infinity.svg"
-                  quality={100}
+                  // quality={100}
                   className="xsm:w-[30px]"
                   alt="Infinity"
                   width={80}
@@ -93,7 +93,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
