@@ -95,7 +95,7 @@ export default function Home() {
             by going to the official <a class="text-blue-600 hover:underline"
               href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite Documentation</a>.
           </p>
-          <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
+          {/* <script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script> */}
         </div>
         <Names />
       </section>
