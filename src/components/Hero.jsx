@@ -52,7 +52,7 @@ const Hero = () => {
           <div className="h_title" ref={addToRefs}>
             <span className="overflow-hidden xsm:gap-2 flex items-center gap-4">
               <span className="translate-y-full">
-                <h2>Beyond Infinity</h2>
+                <p>Beyond Infinity</p>
               </span>
               <span className="translate-y-[170%] xsm:translate-y-[200%]">
                 <Image
@@ -69,10 +69,10 @@ const Hero = () => {
           <div className="h_title" ref={addToRefs}>
             <span className="overflow-hidden flex items-center gap-4">
               <span className="translate-y-full">
-                <h2 className="flex gap-3 items-center xsm:gap-[3px]">
+                <h1 className="flex gap-3 items-center xsm:gap-[3px]">
                   <span>The 99 Names of Allah</span>
                   <div className="gulzar mt-[-6px] xsm:text-lg text-3xl">ﷻ</div>
-                </h2>
+                </h1>
               </span>
             </span>
           </div>
@@ -80,13 +80,13 @@ const Hero = () => {
             <span className="overflow-hidden flex items-center gap-4">
               <span className="translate-y-full">
                 <div className="silk mt-[30px] flex w-[900px] flex-col xsm:w-[320px] xsm:text-base text-2xl text-[#ccc]">
-                  <h2 className="lime">
+                  <p className="lime">
                     “He is Allah, the Creator, the Originator, The Fashioner, to Him
                     belong the most beautiful names...”
-                  </h2>
-                  <h3 className="albert head mt-[25px] xsm:text-base text-[18px] font-[100]">
+                  </p>
+                  <p className="albert head mt-[25px] xsm:text-base text-[18px] font-[100]">
                     Surah Al-Hashr 59:24
-                  </h3>
+                  </p>
                 </div>
               </span>
             </span>

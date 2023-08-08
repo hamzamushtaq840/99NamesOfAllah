@@ -1,6 +1,6 @@
 'use client'
 import { Analytics } from '@vercel/analytics/react'
-import Navbar from './navbar/Navbar'
+import Navbar from './Navbar'
 import { PageProvider } from '@/context/pageContext'
 
 const Children = ({ children }) => {

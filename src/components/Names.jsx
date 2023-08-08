@@ -20,9 +20,9 @@ const Names = () => {
             <div className="hover:bg-[#00000015] absolute top-0 flex h-full w-full">
               <div className="absolute top-0 flex h-full w-full flex-col items-center justify-center text-white ">
                 {/* {index + 1} */}
-                <h2 className="aref mt-[40px] flex flex-1 items-end text-[80px] xsm:text-[50px]">
+                <p className="aref mt-[40px] flex flex-1 items-end text-[80px] xsm:text-[50px]">
                   {val.arabicName}
-                </h2>
+                </p>
                 <p className="syne mt-2 text-[24px] font-[700] tracking-wide xsm:text-[18px]">
                   {val.englishName}
                 </p>

@@ -7,7 +7,7 @@ const Hadith = () => {
     {
       singleHadith: (
         <div className="flex items-start xsm:flex-col xsm:px-[32px] gap-[40px] px-[100px] xsm:gap-[20px] xsm:py-[60px] min-h-[225px] text-white">
-          <h2 className="lime min-w-[470px] xsm:min-w-0 text-[40px] xsm:text-[30px]">Sahih Muslim 2677</h2>
+          <p className="lime min-w-[470px] xsm:min-w-0 text-[40px] xsm:text-[30px]">Sahih Muslim 2677</p>
           <p className="albert text-[25px] font-[200]">
             Abu Huraira reported: The Prophet, peace and blessings be upon him,
             said, “Allah has ninety-nine names, i.e. one-hundred minus one, and
@@ -19,7 +19,7 @@ const Hadith = () => {
     {
       singleHadith: (
         <div className="flex items-start xsm:flex-col xsm:px-[32px] gap-[40px] px-[100px] xsm:gap-[20px] xsm:py-[60px] min-h-[225px] text-white">
-          <h2 className="lime min-w-[470px] xsm:min-w-0 text-[40px] xsm:text-[30px]">Surah Al-Isra 17:1107</h2>
+          <p className="lime min-w-[470px] xsm:min-w-0 text-[40px] xsm:text-[30px]">Surah Al-Isra 17:1107</p>
           <p className="albert text-[25px] font-[200]">
             Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever
             you call, He has the Most Beautiful Names.”

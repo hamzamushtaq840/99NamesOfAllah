@@ -1,5 +1,5 @@
 import Children from '@/components/Children';
-import Navbar from '@/components/navbar/Navbar';
+import Navbar from '@/components/Navbar';
 import { Analytics } from '@vercel/analytics/react';
 import { Inter } from 'next/font/google';
 import './globals.css';
