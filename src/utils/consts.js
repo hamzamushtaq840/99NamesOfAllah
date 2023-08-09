@@ -705,19 +705,60 @@ export const names = [
 export const accordions = [
   {
     title: 'An Introduction to the 99 Names of Allah',
-    content: 'Lorem ipsum 99 Names of Allah, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    content: (
+      <>
+        Names hold a unique influence, carrying the essence of the qualities they represent. Among them, the 99 Names of Allah are known as <span className="text-white font-[800] underline">"Asma-ul-Husna,"</span> which means beautiful names that every soul accepts for its beauty. These names are not given by humans but are revelations from Allah, each shimmering with its own beauty.
+
+        Each name reflects a distinct attribute of Allah's boundless power, love, loyalty, and much more. For instance, <span className="text-white font-[800] underline">"AR-KAREEM"</span> portrays generosity, while <span className="text-white font-[800]">"AL-JABBAR"</span> signifies dominance.
+        People express their feelings through words, and addressing Allah through His names connects personal emotions with the meanings of the names. Whether seeking guidance, forgiveness, or gratitude, believers find solace in invoking the names that resembles with their feelings or thoughts. This practice calms the heart and makes one feel justified by the soul.
+      </>
+    )
   },
   {
     title: 'What Do the 99 Names of Allah Represent?',
-    content: 'Lorem ipsum  99 Names of Allah, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    content: (
+      <>
+        Each name among the 99 Names of Allah encapsulates a profound representation. These names are not mere labels but divine revelations, each holding its own significance and beauty.
+
+        Just as a radiant pearl shines uniquely in a string of pearls, each name of Allah illuminates a specific attribute of the Divine. These attributes are reflections of Allah's boundless mercy, power, and wisdom.
+
+        For instance, the name <span className="text-white font-[800] underline">"Ar-Rahman"</span> embodies His limitless compassion, while <span className="text-white font-[800] underline">"Al-Hakim"</span> signifies divine wisdom. These names provide believers with a spiritual vocabulary, enabling them to comprehend and invoke Allah's qualities in their lives.
+
+        By contemplating and understanding the meanings behind these names, Muslims gain insights into the multifaceted nature of Allah. These names guide them in moments of hardship, inspire gratitude in times of ease, and deepen their connection with the Creator.
+
+        In essence, the 99 Names of Allah are like facets of a divine gem, refracting the light of His attributes onto the hearts of believers, enriching their faith, and guiding them on their journey.
+      </>
+    )
   },
   {
     title: 'Where Do the 99 Names of Allah Come From?',
-    content: 'Lorem ipsum  99 Names of Allah, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    content: (
+      <>
+        The origin of the 99 Names of Allah is deeply rooted in Islamic tradition. These names are not human constructs but have been divinely revealed to humanity through the Quran and the teachings of the Prophet Muhammad (peace be upon him).
+
+        The Quran, the holy book of Islam, is the primary source of these names. Each name is a manifestation of Allah's attributes and qualities. These divine names were unveiled to provide insight into the nature of the Divine, enabling believers to understand and connect with Allah on a profound level.
+
+        The Prophet Muhammad (peace be upon him) also played a pivotal role in conveying these names to the ummah (community of believers). His teachings and sayings, known as Hadith, further elaborated on the meanings and significance of the 99 Names. Through his guidance, Muslims gained a deeper understanding of the virtues and characteristics that these names represent.
+
+        The 99 Names of Allah are a source of spiritual enrichment and guidance for Muslims around the world. They serve as a pathway to cultivating a stronger relationship with Allah, enhancing worship, and striving to embody the divine qualities in their daily lives.
+      </>
+    )
   },
   {
     title: 'What Are the 99 Names of Allah?',
-    content: 'Lorem ipsum  99 Names of Allah, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    content: (
+      <>
+        The 99 Names of Allah, also known as the "Asma-ul-Husna," are a collection of divine attributes that beautifully describe the essence of the Creator. These names are revealed in Islamic tradition and hold a significant place in the hearts of believers.
+
+        Each of these names encompasses a unique quality that characterizes Allah's boundless perfection. These qualities include mercy, wisdom, power, compassion, and more. They offer Muslims a profound understanding of Allah's nature and foster a deep connection with the Divine.
+
+        Some of these names include <span className="text-white font-[800] underline">"Ar-Rahman"</span> (The Most Compassionate), <span className="text-white font-[800] underline">"Al-Ghaffar"</span> (The Forgiving), and <span className="text-white font-[800] underline">"As-Salam"</span> (The Source of Peace). These names guide believers in recognizing Allah's role as the source of all virtues.
+
+        Muslims hold a special reverence for the 99 Names, invoking them in prayers and reflecting upon their meanings. This practice not only deepens their connection with Allah but also serves as a constant reminder of the qualities they strive to emulate in their own lives.
+
+        In essence, the 99 Names of Allah offer a comprehensive view of His attributes, allowing believers to comprehend the unfathomable depth of the Divine and to enrich their spiritual journey.
+      </>
+    )
   },
   {
     title: 'What Did the Hadith Say About the 99 Names of Allah?',
@@ -725,10 +766,41 @@ export const accordions = [
   },
   {
     title: 'The Names of Allah Are Not Limited to the 99 Names',
-    content: 'Lorem ipsum  99 Names of Allah, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    content: (
+      <>
+        While the 99 Names of Allah, known as the "Asma-ul-Husna," hold immense significance, they are not the only names that describe the Divine. Allah's attributes are infinite, and His names are boundless.
+
+        The Quran itself mentions that if we were to count Allah's attributes and names, we would find them beyond enumeration. The 99 Names are a sacred compilation that provides a framework for understanding Allah's qualities, but they don't encompass the entirety of His nature.
+
+        In addition to the well-known names, countless other attributes reflect Allah's essence. These attributes can be discovered throughout the Quran and the Hadith. Each attribute offers a glimpse into Allah's grandeur and magnificence, inviting believers to delve deeper into their understanding of the Divine.
+
+        Recognizing that Allah's names are limitless emphasizes His infiniteness and the inherent complexity of His being. Believers are encouraged to seek a deeper connection by exploring these attributes and incorporating them into their worship and contemplation.
+
+        So, while the 99 Names stand as a magnificent collection, they are just a fraction of the beauty and majesty that defines Allah's essence. The journey of understanding Allah's names is a lifelong endeavor, an exploration of the boundless attributes that illuminate the path of faith.
+      </>
+    )
   },
   {
     title: 'Best Way to Memorize the 99 Names of Allah?',
-    content: 'Lorem ipsum  99 Names of Allah, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    content: (
+      <>
+        <p>Memorizing the 99 Names of Allah, the "Asma-ul-Husna," is a spiritually enriching endeavor that deepens one's connection with the Divine. While the task may seem daunting, there are effective methods to make this journey more manageable and fulfilling.</p>
+
+        <ul className="list-decimal ml-6">
+          <li className="mb-3">Consistent Recitation: Regularly recite the names during your daily prayers or quiet moments. Repetition aids in memory retention and reinforces the significance of each name.</li>
+          <li className="mb-3">Understand the Meanings: Comprehend the meanings behind each name. This not only aids memorization but also enhances your connection with Allah's attributes.</li>
+          <li className="mb-3">Group Similar Names: Group names with related meanings. Associating similar attributes makes it easier to remember and comprehend.</li>
+          <li className="mb-3">Create Mnemonics: Develop mnemonic devices, like acronyms or visual associations, to connect the names with their meanings.</li>
+          <li className="mb-3">Set a Routine: Designate specific times for memorization. Consistency fosters progress and minimizes forgetting.</li>
+          <li className="mb-3">Utilize Audio Resources: Listen to recitations by scholars to learn proper pronunciation and rhythm.</li>
+          <li className="mb-3">Reflect and Meditate: Reflect on the qualities each name represents and meditate on their relevance in your life.</li>
+          <li className="mb-3">Teach Others: Sharing your knowledge helps reinforce your memory and inspires others.</li>
+          <li className="mb-3">Seek Divine Assistance: Supplicate to Allah for guidance and ease in memorization. Trust in His support.</li>
+          <li>Patience and Persistence: Memorization is a gradual process. Exercise patience and persist even when it feels challenging.</li>
+        </ul>
+
+        <p>Remember, the objective is not just memorization, but also internalizing the attributes of Allah. Approach this endeavor with sincerity and humility, and let the names of Allah become a guiding light in your spiritual journey.</p>
+      </>
+    )
   }
 ]
