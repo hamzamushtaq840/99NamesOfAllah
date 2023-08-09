@@ -6,11 +6,10 @@ import Link from "next/link";
 
 const Names = () => {
   return (
-    <div className="flex items-center  justify-center  gap-[25px]">
+    <div className="flex items-center justify-center">
       <div className="grid grid-cols-3 gap-[40px] xsm:grid-cols-1 xsm:gap-[20px]">
-
         {names.map((val, index) => (
-          <Link href={`/${val.englishName}`} key={index} className="relative transform cursor-pointer image-box">
+          <Link href={`/name/${val.englishName}`} key={index} className="relative transform cursor-pointer image-box">
             <Image src={val.image} quality={100} alt="The glimpse of Allah's Majesty" width={415} height={0} className="img h-[527px] max-h-[527px] rounded-sm xsm:h-[400px] xsm:max-h-[400px] xsm:w-[320px] "
               style={{
                 objectFit: "cover",
@@ -19,8 +18,8 @@ const Names = () => {
             />
             <div className="hover:bg-[#00000015] absolute top-0 flex h-full w-full">
               <div className="absolute top-0 flex h-full w-full flex-col items-center justify-center text-white ">
-                {/* {index + 1} */}
-                <p className="aref mt-[40px] flex flex-1 items-end text-[80px] xsm:text-[50px]">
+                <span className="absolute bottom-8 left-4 sans font-extrabold opacity-[0.1] text-[80px] leading-[31px]">{index + 1}</span>
+                <p className="rakkas  mt-[40px] flex flex-1 items-end text-[80px] xsm:text-[50px]">
                   {val.arabicName}
                 </p>
                 <p className="syne mt-2 text-[24px] font-[700] tracking-wide xsm:text-[18px]">
