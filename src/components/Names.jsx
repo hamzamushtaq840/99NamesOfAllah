@@ -19,7 +19,7 @@ const Names = () => {
             <div className="hover:bg-[#00000015] absolute top-0 flex h-full w-full">
               <div className="absolute top-0 flex h-full w-full flex-col items-center justify-center text-white ">
                 <span className="absolute bottom-8 left-4 sans font-extrabold opacity-[0.1] text-[80px] leading-[31px]">{index + 1}</span>
-                <p className="rakkas  mt-[40px] flex flex-1 items-end text-[80px] xsm:text-[50px]">
+                <p className="rakkas text-center  mt-[40px] flex flex-1 items-end text-[80px] xsm:text-[50px]">
                   {val.arabicName}
                 </p>
                 <p className="syne mt-2 text-[24px] font-[700] tracking-wide xsm:text-[18px]">
