@@ -33,8 +33,8 @@ const Accordion = () => {
               </span>
             </button>
 
-            <div>
-              <p className='text-[#ccccccda] text-[14px] poppins'>{section.content}</p>
+            <div className='text-[#ccccccda] text-[14px] poppins'>
+              {section.content}
             </div>
           </div>
         </div>
