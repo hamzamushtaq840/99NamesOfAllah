@@ -43,7 +43,7 @@ const Hero = () => {
         fill
         priority
         sizes="100vw"
-        className="mx-auto max-w-[1700px]"
+        className="mx-auto max-w-[1920px]"
         alt="The glimpse of Allah's Majesty"
         style={{ objectFit: "cover", filter: "brightness(70%)" }}
       />

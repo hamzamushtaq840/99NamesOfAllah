@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const Names = () => {
   return (
-    <div className="flex items-center justify-center">
-      <div className="grid grid-cols-3 gap-[40px] xsm:grid-cols-1 xsm:gap-[20px]">
+    <div className="flex items-center px-10 justify-center">
+      <div className="grid grid-cols-3 gap-[40px] xsm:grid-cols-1 sm:grid-cols-2 md:grid-cols-2 xsm:gap-[20px] lg:grid-cols-2 2xl:grid-cols-4">
         {names.map((val, index) => (
           <Link href={`/name/${val.englishName}`} key={index} className="relative transform cursor-pointer image-box">
             <Image src={val.image} quality={100} alt="The glimpse of Allah's Majesty" width={415} height={0} className="img h-[527px] max-h-[527px] rounded-sm xsm:h-[400px] xsm:max-h-[400px] xsm:w-[320px] "
