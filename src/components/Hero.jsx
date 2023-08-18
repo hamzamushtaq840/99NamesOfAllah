@@ -38,12 +38,14 @@ const Hero = () => {
   return (
     <section className="z-10 h-screen w-full">
       <Image
-        src="https://images.unsplash.com/photo-1628521495179-ca4448a584d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        // src="https://images.unsplash.com/photo-1647292545204-1c537d2ffb71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+        src="https://images.unsplash.com/photo-1491466424936-e304919aada7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+        // src="https://images.unsplash.com/photo-1628521495179-ca4448a584d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
         // quality={100}
         fill
         priority
         sizes="100vw"
-        className="mx-auto max-w-[1920px]"
+        className="mx-auto max-w-[1920px] opacity-80"
         alt="The glimpse of Allah's Majesty"
         style={{ objectFit: "cover", filter: "brightness(70%)" }}
       />
@@ -84,7 +86,7 @@ const Hero = () => {
                     “He is Allah, the Creator, the Originator, The Fashioner, to Him
                     belong the most beautiful names...”
                   </p>
-                  <p className="albert head mt-[25px] xsm:text-base text-[18px] font-[100]">
+                  <p className="albert head mt-[25px] xsm:text-base text-[18px] font-[300]">
                     Surah Al-Hashr 59:24
                   </p>
                 </div>

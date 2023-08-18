@@ -23,7 +23,7 @@ module.exports = {
 
         'xl': { 'min': '1280px', 'max': '1700px' },
 
-        '2xl': { 'min': '1700px', 'max': '2000px' },
+        '2xl': { 'min': '1700px', 'max': '30000px' },
       },
     },
   },

@@ -1,6 +1,5 @@
 export const names = [
   {
-    id: 1,
     image: 'https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg',
     imageBrightness: '40%',
     arabic: {
@@ -17,7 +16,6 @@ export const names = [
     metaDescription: "Ar Raheem (Ar Rahim in arabic الرحيم) is one of the 99 names of Allah, meaning The Most Merciful. Ar Rahim the one who acts with extreme kindness",
   },
   {
-    id: 2,
     image: 'https://i.pinimg.com/originals/a3/22/53/a32253bc408d53b57672dc0880856302.jpg',
     imageBrightness: '45%',
     arabic: {
@@ -34,7 +32,6 @@ export const names = [
     metaDescription: "",
   },
   {
-    id: 3,
     image: 'https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60',
     imageBrightness: '40%',
     arabic: {
@@ -51,7 +48,6 @@ export const names = [
     metaDescription: "",
   },
   {
-    id: 4,
     image: 'https://i.pinimg.com/564x/a8/21/83/a82183f88a40aef6e47629b1fb3cec96.jpg',
     imageBrightness: '45%',
     arabic: {
@@ -62,13 +58,12 @@ export const names = [
       meaning: 'The Absolutely Purest',
     },
     urdu: {
-      meaning: 'انتہائی پاک',
+      meaning: 'انتہائی پاک ذات',
     },
     metaTitle: 'Al Qudoos Meaning: The Absolutely Purest (99 Names of Allah)',
     metaDescription: "",
   },
   {
-    id: 5,
     image: 'https://i.pinimg.com/564x/86/f9/d3/86f9d34a8f6ae41717dfa98e4a8e7eaa.jpg',
     imageBrightness: '40%',
     arabic: {
@@ -111,7 +106,7 @@ export const names = [
       meaning: 'The Guardian, The Witness, The Overseer',
     },
     urdu: {
-      meaning: 'محافظ',
+      meaning: 'نگرانی کرنے والا',
     },
     metaTitle: 'Al Muhaymin Meaning: The Guardian, The Witness, The Overseer (99 Names of Allah)',
     metaDescription: "",
@@ -159,7 +154,7 @@ export const names = [
       meaning: 'The Supreme, The Majestic',
     },
     urdu: {
-      meaning: 'بڑائی والا، بزرگی والا',
+      meaning: 'بڑائی والا',
     },
     metaTitle: 'Al Mutaqabbir Meaning: The Supreme, The Majestic (99 Names of Allah)',
     metaDescription: "",
@@ -204,12 +199,12 @@ export const names = [
     },
     english: {
       name: 'AL-MUSAWWIR',
-      meaning: 'The Fashioner',
+      meaning: 'The Shaper of Beauty',
     },
     urdu: {
-      meaning: 'صورت بنانے والا',
+      meaning: 'صورتیں بنانے والا',
     },
-    metaTitle: 'Al Musawwir Meaning: The Fashioner (99 Names of Allah)',
+    metaTitle: 'Al Musawwir Meaning: The Shaper of Beauty (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -248,16 +243,16 @@ export const names = [
     image: 'https://images.unsplash.com/photo-1600298881974-6be191ceeda1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80',
     imageBrightness: '40%',
     arabic: {
-      name: 'عطاء کرنے والا',
+      name: 'الْوَهَّابُ',
     },
     english: {
       name: 'AL-WAHHAAB',
-      meaning: 'The Giver of Gifts',
+      meaning: 'The Giver of All',
     },
     urdu: {
-      meaning: 'عطاء کرنے والا',
+      meaning: 'سب کچھ عطا کرنے والا',
     },
-    metaTitle: 'Al Wahhaab Meaning: The Giver of Gifts (99 Names of Allah)',
+    metaTitle: 'Al Wahhaab Meaning: The Giver of All (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -268,12 +263,12 @@ export const names = [
     },
     english: {
       name: 'AR-RAZZAAQ',
-      meaning: 'The Provider',
+      meaning: 'The Sustainer',
     },
     urdu: {
       meaning: 'رزق دینے والا',
     },
-    metaTitle: 'Al Razzaaq Meaning: The Provider (99 Names of Allah)',
+    metaTitle: 'Al Razzaaq Meaning: The Sustainer (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -335,7 +330,7 @@ export const names = [
       meaning: 'The Expander',
     },
     urdu: {
-      meaning: 'فراخ کرنے والا',
+      meaning: 'کشادہ کرنے والا ',
     },
     metaTitle: 'Al Baasit Meaning: The Expander (99 Names of Allah)',
     metaDescription: "",
@@ -380,12 +375,12 @@ export const names = [
     },
     english: {
       name: 'AL-MU’IZZ',
-      meaning: 'The Honourer',
+      meaning: 'The Bestower of Honors',
     },
     urdu: {
       meaning: 'عزت دینے والا',
     },
-    metaTitle: 'Al Mu’izz Meaning: The Honourer (99 Names of Allah)',
+    metaTitle: 'Al Mu’izz Meaning: The Bestower of Honors (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -415,7 +410,7 @@ export const names = [
       meaning: 'The All-Hearing',
     },
     urdu: {
-      meaning: 'سننے والا',
+      meaning: 'خوب سننے والا',
     },
     metaTitle: 'As Sami’ Meaning: The All-Hearing (99 Names of Allah)',
     metaDescription: "",
@@ -431,7 +426,7 @@ export const names = [
       meaning: 'The All-Seeing',
     },
     urdu: {
-      meaning: 'دیکھنے والا',
+      meaning: 'خوب دیکھنے والا',
     },
     metaTitle: 'Al Baseer Meaning: The All-Seeing (99 Names of Allah)',
     metaDescription: "",
@@ -495,7 +490,7 @@ export const names = [
       meaning: 'The All-Aware',
     },
     urdu: {
-      meaning: 'خبردار، جاننے والا،خبر رکھنے والا',
+      meaning: 'خبردار، جاننے والا، خبر رکھنے والا',
     },
     metaTitle: 'Al Khabeer Meaning: The All-Aware (99 Names of Allah)',
     metaDescription: "",
@@ -527,7 +522,7 @@ export const names = [
       meaning: 'The Magnificent',
     },
     urdu: {
-      meaning: 'عظمت والا، بڑائی والا، بڑا',
+      meaning: 'بہت عظمت والا',
     },
     metaTitle: 'Al ‘Azeem Meaning: The Magnificent (99 Names of Allah)',
     metaDescription: "",
@@ -543,7 +538,7 @@ export const names = [
       meaning: 'The Most-Forgiving',
     },
     urdu: {
-      meaning: 'معافی دینے والا',
+      meaning: 'خوب بخش دینے والا',
     },
     metaTitle: 'Al Ghafoor Meaning: The Most-Forgiving (99 Names of Allah)',
     metaDescription: "",
@@ -556,12 +551,12 @@ export const names = [
     },
     english: {
       name: 'ASH-SHAKOOR',
-      meaning: 'The Most Appreciative',
+      meaning: 'The Rewarder of Thankfulness',
     },
     urdu: {
       meaning: 'قدردان',
     },
-    metaTitle: 'Ash Shakoor Meaning: TThe Most Appreciative (99 Names of Allah)',
+    metaTitle: 'Ash Shakoor Meaning: The Rewarder of Thankfulness (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -572,12 +567,12 @@ export const names = [
     },
     english: {
       name: 'AL-‘ALEE',
-      meaning: 'The Sublimely Exalted',
+      meaning: 'The Highest',
     },
     urdu: {
       meaning: 'اعلیٰ، سب سے افضل، برتر',
     },
-    metaTitle: 'Al ‘Alee Meaning: The Sublimely Exalted (99 Names of Allah)',
+    metaTitle: 'Al ‘Alee Meaning: The Highest (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -591,7 +586,7 @@ export const names = [
       meaning: 'The Great, The Most Grand',
     },
     urdu: {
-      meaning: 'اعلیٰ، سب سے افضل، برتر',
+      meaning: 'بہت بڑا',
     },
     metaTitle: 'Al Kabeer Meaning: The Great, The Most Grand (99 Names of Allah)',
     metaDescription: "",
@@ -671,9 +666,9 @@ export const names = [
       meaning: 'The Generous',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'کرم کرنے والا',
     },
-    metaTitle: 'AL-KAREEM Meaning: The Generous (99 Names of Allah)',
+    metaTitle: 'Al Kareem Meaning: The Generous (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -687,9 +682,9 @@ export const names = [
       meaning: 'The Watchful',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'نگہبان، خیال رکھنے والا',
     },
-    metaTitle: 'AR-RAQEEB Meaning: The Watchful (99 Names of Allah)',
+    metaTitle: 'Ar Raqeeb Meaning: The Watchful (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -700,12 +695,12 @@ export const names = [
     },
     english: {
       name: 'AL-MUJEEB',
-      meaning: 'The Responsive',
+      meaning: 'The Responsive, The Answerer of Prayers',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'قبول کرنے والا',
     },
-    metaTitle: 'AL-MUJEEB Meaning: The Responsive (99 Names of Allah)',
+    metaTitle: 'Al Mujeeb Meaning: The Responsive, The Answerer of Prayers (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -719,9 +714,9 @@ export const names = [
       meaning: 'The Vast, The All-Encompassing',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'لامحدود',
     },
-    metaTitle: 'AL-WAASI’ Meaning: The Vast, The All-Encompassing (99 Names of Allah)',
+    metaTitle: 'Al Waasi’ Meaning: The Vast, The All-Encompassing (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -732,12 +727,12 @@ export const names = [
     },
     english: {
       name: 'AL-HAKEEM',
-      meaning: 'The Wise',
+      meaning: 'The Perfectly Wise',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'حکمت والا',
     },
-    metaTitle: 'AL-HAKEEM Meaning: The Wise (99 Names of Allah)',
+    metaTitle: 'Al Hakeem Meaning: The Perfectly Wise (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -748,12 +743,12 @@ export const names = [
     },
     english: {
       name: 'AL-WADOOD',
-      meaning: 'The Loving',
+      meaning: 'The Loving One',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'محبت کرنے والا',
     },
-    metaTitle: 'AL-WADOOD Meaning: The Loving (99 Names of Allah)',
+    metaTitle: 'Al Wadood Meaning: The Loving One (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -767,9 +762,9 @@ export const names = [
       meaning: 'The Most Glorious One',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'بڑی شان والا',
     },
-    metaTitle: 'AL-MAJEED Meaning: The Most Glorious One (99 Names of Allah)',
+    metaTitle: 'Al Majeed Meaning: The Most Glorious One (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -783,9 +778,9 @@ export const names = [
       meaning: 'The Resurrector',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "اُٹھانے والا",
     },
-    metaTitle: 'AL-BA’ITH Meaning: The Resurrector (99 Names of Allah)',
+    metaTitle: 'Al Ba’ith Meaning: The Resurrector (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -799,9 +794,9 @@ export const names = [
       meaning: 'The Witness',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "گواہ",
     },
-    metaTitle: 'ASH-SHAHEED Meaning: The Witness (99 Names of Allah)',
+    metaTitle: 'Ash Shaheed Meaning: The Witness (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -815,9 +810,9 @@ export const names = [
       meaning: 'The Truth',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "سچا مالک",
     },
-    metaTitle: 'AL-HAQQ Meaning: The Truth (99 Names of Allah)',
+    metaTitle: 'Al Haqq Meaning: The Truth (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -831,9 +826,9 @@ export const names = [
       meaning: 'The Trustee, The Dependable',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "کام بنانے والا",
     },
-    metaTitle: 'AL-WAKEEL Meaning: The Trustee, The Dependable (99 Names of Allah)',
+    metaTitle: 'Al Wakeel Meaning: The Trustee, The Dependable (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -844,12 +839,12 @@ export const names = [
     },
     english: {
       name: 'AL-QAWIYY',
-      meaning: 'The Strong',
+      meaning: ' The Possessor of All Strength',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "سب سے زیادہ طاقتور",
     },
-    metaTitle: 'AL-QAWIYY Meaning: The Strong (99 Names of Allah)',
+    metaTitle: 'Al Qawiyy Meaning:  The Possessor of All Strength (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -863,9 +858,9 @@ export const names = [
       meaning: 'The Firm, The Steadfast',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "مضبوط، قوت والا",
     },
-    metaTitle: 'AL-MATEEN Meaning: The Firm, The Steadfast (99 Names of Allah)',
+    metaTitle: 'Al Mateen Meaning: The Firm, The Steadfast (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -879,9 +874,9 @@ export const names = [
       meaning: 'The Friend, The Ally',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "دوست",
     },
-    metaTitle: 'AL-WALEE Meaning: The Friend, The Ally (99 Names of Allah)',
+    metaTitle: 'Al Walee Meaning: The Friend, The Ally (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -895,9 +890,9 @@ export const names = [
       meaning: 'The All Praiseworthy',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "تعریف والا",
     },
-    metaTitle: 'AL-HAMEED Meaning: The All Praiseworthy (99 Names of Allah)',
+    metaTitle: 'Al Hameed Meaning: The All Praiseworthy (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -911,9 +906,9 @@ export const names = [
       meaning: 'The Accounter, The Numberer of All',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "شمار کرنے والا",
     },
-    metaTitle: 'AL-MUHSEE Meaning: The Accounter, The Numberer of All (99 Names of Allah)',
+    metaTitle: 'Al Muhsee Meaning: The Accounter, The Numberer of All (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -927,9 +922,9 @@ export const names = [
       meaning: 'The Originator, The Initiator',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "عدم سے عالم کو وجود لانے والا",
     },
-    metaTitle: 'AL-MUBDI Meaning: The Originator, The Initiator (99 Names of Allah)',
+    metaTitle: 'Al Mubdi Meaning: The Originator, The Initiator (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -943,9 +938,9 @@ export const names = [
       meaning: 'The Restorer, The Reinstater Who Brings Back All',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "لوٹانے والا، پہلی بار پیدا کرنے والا",
     },
-    metaTitle: 'AL-MU’ID Meaning: The Restorer, The Reinstater Who Brings Back All (99 Names of Allah)',
+    metaTitle: 'Al mu’id Meaning: The Restorer, The Reinstater Who Brings Back All (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -959,9 +954,9 @@ export const names = [
       meaning: 'The Giver of Life',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "زندہ کرنے والا",
     },
-    metaTitle: 'AL-MUHYEE Meaning: The Giver of Life (99 Names of Allah)',
+    metaTitle: 'Al muhyee Meaning: The Giver of Life (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -975,9 +970,9 @@ export const names = [
       meaning: 'The Bringer of Death, The Destroyer',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "موت دینے والا",
     },
-    metaTitle: 'AL-MUMEET Meaning: The Bringer of Death, The Destroyer (99 Names of Allah)',
+    metaTitle: 'Al Mumeet Meaning: The Bringer of Death, The Destroyer (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -988,12 +983,12 @@ export const names = [
     },
     english: {
       name: 'AL-HAYY',
-      meaning: 'The Ever Living',
+      meaning: 'The Ever Living One',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "زندہ، ہمیشہ رہنے والا",
     },
-    metaTitle: 'AL-HAYY Meaning: The Ever Living (99 Names of Allah)',
+    metaTitle: 'Al Hayy Meaning: The Ever Living One (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1007,9 +1002,9 @@ export const names = [
       meaning: 'The Self-Existing, The One Who is Free from All Needs',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "ہمیشہ خود موجود رہنے والا",
     },
-    metaTitle: 'AL-QAYYOOM Meaning: The Self-Existing, The One Who is Free from All Needs (99 Names of Allah)',
+    metaTitle: 'Al Qayyoom Meaning: The Self-Existing, The One Who is Free from All Needs (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1023,9 +1018,9 @@ export const names = [
       meaning: 'The Perceiver, The Finder, The Unfailing',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "پانے والا ،حاصل کرنے والا",
     },
-    metaTitle: 'AL-WAAJID Meaning: The Perceiver, The Finder, The Unfailing (99 Names of Allah)',
+    metaTitle: 'Al Waajid Meaning: The Perceiver, The Finder, The Unfailing (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1036,12 +1031,12 @@ export const names = [
     },
     english: {
       name: 'AL-MAAJID',
-      meaning: 'The Illustrious, The Magnificent',
+      meaning: 'The Glorious',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "عزت والا",
     },
-    metaTitle: 'AL-MAAJID Meaning: The Illustrious, The Magnificent (99 Names of Allah)',
+    metaTitle: 'Al Majid Meaning: The Glorious (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1052,12 +1047,12 @@ export const names = [
     },
     english: {
       name: 'AL-WAAHID',
-      meaning: 'The One, The Unique, Manifestation of Unity',
+      meaning: ' The One, the All Inclusive, The Indivisible',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "اکیلا",
     },
-    metaTitle: 'AL-WAAHID Meaning: The One, The Unique, Manifestation of Unity (99 Names of Allah)',
+    metaTitle: 'Al Wahid Meaning:  The One, the All Inclusive, The Indivisible (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1068,12 +1063,12 @@ export const names = [
     },
     english: {
       name: 'AL-AHAD',
-      meaning: 'The One, the All Inclusive, The Indivisible',
+      meaning: 'The Unique One',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "منفرد اکیلا",
     },
-    metaTitle: 'AL-AHAD Meaning: The One, the All Inclusive, The Indivisible (99 Names of Allah)',
+    metaTitle: 'Al Ahad Meaning: The Unique One (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1087,9 +1082,9 @@ export const names = [
       meaning: 'The Self Sufficient, The Impregnable, The Eternally Besought of All, The Everlasting',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "بے نیاز، مضبوط",
     },
-    metaTitle: 'AS-SAMAD Meaning: The Self Sufficient, The Impregnable, The Eternally Besought of All, The Everlasting (99 Names of Allah)',
+    metaTitle: 'As Samad Meaning: The Self Sufficient, The Impregnable, The Eternally Besought of All, The Everlasting (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1100,12 +1095,12 @@ export const names = [
     },
     english: {
       name: 'AL-QAADER',
-      meaning: 'The Able, The Capable, The Omnipotent',
+      meaning: 'The Able, The All Capable, The Omnipotent',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "قدرت والا",
     },
-    metaTitle: 'AL-QAADER Meaning: The Able, The Capable, The Omnipotent (99 Names of Allah)',
+    metaTitle: 'Al Qaader Meaning: The Able, The All Capable, The Omnipotent (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1119,9 +1114,9 @@ export const names = [
       meaning: 'The Powerful, The Dominant, The One with the perfect Power that nothing is withheld from Him',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "اقتدار والا، قادر مطلق",
     },
-    metaTitle: 'AL-MUQTADIR Meaning: The Powerful, The Dominant, The One with the perfect Power that nothing is withheld from Him (99 Names of Allah)',
+    metaTitle: 'Al Muqtadir Meaning: The Powerful, The Dominant, The One with the perfect Power that nothing is withheld from Him (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1135,9 +1130,9 @@ export const names = [
       meaning: 'The Expediter, He who brings forward',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "آگے کرنے والا",
     },
-    metaTitle: 'AL-MUQADDIM Meaning: The Expediter, He who brings forward (99 Names of Allah)',
+    metaTitle: 'Al Muqaddim Meaning: The Expediter, He who brings forward (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1151,9 +1146,9 @@ export const names = [
       meaning: 'The Delayer, He who puts far away',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "پیچھے کرے والا",
     },
-    metaTitle: 'AL-MU’AKHKHIR Meaning: The Delayer, He who puts far away (99 Names of Allah)',
+    metaTitle: 'Al Mu’akhkhir Meaning: The Delayer, He who puts far away (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1167,9 +1162,9 @@ export const names = [
       meaning: 'The First',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "سب سے پہلے",
     },
-    metaTitle: 'AL-AWWAL Meaning: The First (99 Names of Allah)',
+    metaTitle: 'Al Awwal Meaning: The First (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1183,9 +1178,9 @@ export const names = [
       meaning: 'The Last',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "سب سے آخر",
     },
-    metaTitle: 'AL-AAKHIR Meaning: The Last (99 Names of Allah)',
+    metaTitle: 'Al Aakhir Meaning: The Last (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1199,9 +1194,9 @@ export const names = [
       meaning: 'The Manifest, The Evident, The Outer',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "ظاہر",
     },
-    metaTitle: 'AZ-DHAAHIR Meaning: The Manifest, The Evident, The Outer (99 Names of Allah)',
+    metaTitle: 'Az Dhaahir Meaning: The Manifest, The Evident, The Outer (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1211,11 +1206,11 @@ export const names = [
       name: 'ٱلْبَاطِنُ',
     },
     english: {
-      name: 'AL-BAATIN',
+      name: 'Al Baatin',
       meaning: 'The Hidden, The Unmanifest, The Inner',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "چھپا ہوا، باطن کو جاننے والا",
     },
     metaTitle: 'AL-BAATIN Meaning: The Hidden, The Unmanifest, The Inner (99 Names of Allah)',
     metaDescription: "",
@@ -1228,12 +1223,12 @@ export const names = [
     },
     english: {
       name: 'AL-WAALI',
-      meaning: 'The Governor, The Patron',
+      meaning: 'The Protecting Friend',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "حفاظت کرنے والا دوست",
     },
-    metaTitle: 'AL-WAALI Meaning: The Governor, The Patron (99 Names of Allah)',
+    metaTitle: 'Al Waali Meaning: The Protecting Friend (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1247,9 +1242,9 @@ export const names = [
       meaning: 'The Self Exalted',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "بلند صفتوں والا",
     },
-    metaTitle: 'AL-MUTA’ALI Meaning: The Self Exalted (99 Names of Allah)',
+    metaTitle: 'Al Muta’ali Meaning: The Self Exalted (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1260,12 +1255,12 @@ export const names = [
     },
     english: {
       name: 'AL-BARR',
-      meaning: 'The Source of Goodness, the Kind Benefactor',
+      meaning: 'The Doer of Good',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'احسان کرنے والا',
     },
-    metaTitle: 'AL-BARR Meaning: The Source of Goodness, the Kind Benefactor (99 Names of Allah)',
+    metaTitle: 'Al Barr Meaning: The Doer of Good (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1276,12 +1271,12 @@ export const names = [
     },
     english: {
       name: 'AT-TAWWAB',
-      meaning: 'The Ever-Pardoning, The Relenting',
+      meaning: 'The Ever-Acceptor of Repentance',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "توبہ قبول کرنے والا",
     },
-    metaTitle: 'AT-TAWWAB Meaning: The Ever-Pardoning, The Relenting (99 Names of Allah)',
+    metaTitle: 'AT-TAWWAB Meaning: The Ever-Acceptor of Repentance (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1295,9 +1290,9 @@ export const names = [
       meaning: 'The Avenger',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'بدلہ لینے والا',
     },
-    metaTitle: 'AL-MUNTAQIM Meaning: The Avenger (99 Names of Allah)',
+    metaTitle: 'Al Muntaqim Meaning: The Avenger (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1308,12 +1303,12 @@ export const names = [
     },
     english: {
       name: 'AL-‘AFUWW',
-      meaning: 'The Pardoner',
+      meaning: 'The Forgiver',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "معاف کرنے والا",
     },
-    metaTitle: 'AL-‘AFUWW Meaning: The Pardoner (99 Names of Allah)',
+    metaTitle: 'Al ‘Afuww Meaning: The Forgiver (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1327,9 +1322,9 @@ export const names = [
       meaning: 'The Most Kind',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "رحم کرنے والا، شفقت کرنے ولا",
     },
-    metaTitle: 'AR-RA’OOF Meaning: The Most Kind (99 Names of Allah)',
+    metaTitle: 'Ar Ra’oof Meaning: The Most Kind (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1340,12 +1335,12 @@ export const names = [
     },
     english: {
       name: 'MAALIK-UL-MULK',
-      meaning: 'Master of the Kingdom, Owner of the Dominion',
+      meaning: 'Master of the Kingdom, Owner of all Dominion',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "بادشاہی کا مالک",
     },
-    metaTitle: 'MAALIK-UL-MULK Meaning: Master of the Kingdom, Owner of the Dominion (99 Names of Allah)',
+    metaTitle: 'Maalik ul mulk Meaning: Master of the Kingdom, Owner of all Dominion (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1356,12 +1351,12 @@ export const names = [
     },
     english: {
       name: 'DHUL-JALAALI WAL-IKRAAM',
-      meaning: 'Possessor of Glory and Honour, Lord of Majesty and Generosity',
+      meaning: ' The Lord of Majesty and Bounty',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "جلال اور انعام و اکرام والا",
     },
-    metaTitle: 'DHUL-JALAALI WAL-IKRAAM Meaning: Possessor of Glory and Honour, Lord of Majesty and Generosity (99 Names of Allah)',
+    metaTitle: 'Dhul jalaali wal ikram Meaning:  The Lord of Majesty and Bounty (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1375,9 +1370,9 @@ export const names = [
       meaning: 'The Equitable, the Requiter',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "انصاف کرنے والا",
     },
-    metaTitle: 'AL-MUQSIT Meaning: The Equitable, the Requiter (99 Names of Allah)',
+    metaTitle: 'Al Muqsit Meaning: The Equitable, the Requiter (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1391,9 +1386,9 @@ export const names = [
       meaning: 'The Gatherer, the Uniter',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "اکھٹا کرنے والا",
     },
-    metaTitle: 'AL-JAAMI’ Meaning: The Gatherer, the Uniter (99 Names of Allah)',
+    metaTitle: 'Al Jaami’ Meaning: The Gatherer, the Uniter (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1407,9 +1402,9 @@ export const names = [
       meaning: 'The Self-Sufficient, The Wealthy',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "بے پرواہ، غنی",
     },
-    metaTitle: 'AL-GHANIYY Meaning: The Self-Sufficient, The Wealthy (99 Names of Allah)',
+    metaTitle: 'Al Ghaniyy Meaning: The Self-Sufficient, The Wealthy (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1423,9 +1418,9 @@ export const names = [
       meaning: 'The Enricher',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "بے نیاز",
     },
-    metaTitle: 'AL-MUGHNI Meaning: The Enricher (99 Names of Allah)',
+    metaTitle: 'Al Mughni Meaning: The Enricher (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1439,9 +1434,9 @@ export const names = [
       meaning: 'The Withholder',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "روکنے والا، باز رکھنے والا",
     },
-    metaTitle: 'AL-MANI’ Meaning: The Withholder (99 Names of Allah)',
+    metaTitle: 'Al Mani’ Meaning: The Withholder (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1452,12 +1447,12 @@ export const names = [
     },
     english: {
       name: 'AD-DHARR',
-      meaning: 'The Distresser',
+      meaning: 'The Creator of The Harmful',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'نقصان پہنچانے والا',
     },
-    metaTitle: 'AD-DHARR Meaning: The Distresser (99 Names of Allah)',
+    metaTitle: 'Ad Dharr Meaning: The Creator of The Harmful (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1468,12 +1463,12 @@ export const names = [
     },
     english: {
       name: 'AN-NAFI’',
-      meaning: 'The Propitious, the Benefactor',
+      meaning: 'The Creator of Good',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'نفع پہنچانے والا',
     },
-    metaTitle: 'AN-NAFI’ Meaning: The Propitious, the Benefactor (99 Names of Allah)',
+    metaTitle: 'An Nafi’ Meaning: The Creator of Good (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1487,9 +1482,9 @@ export const names = [
       meaning: 'The Light, The Illuminator',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "روشن، روشنی دینے والا",
     },
-    metaTitle: 'AN-NUR Meaning: The Light, The Illuminator (99 Names of Allah)',
+    metaTitle: 'An Nur Meaning: The Light, The Illuminator (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1503,9 +1498,9 @@ export const names = [
       meaning: 'The Guide',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "ہدایت دینے والا، راستہ دکھانے والا",
     },
-    metaTitle: 'AL-HAADI Meaning: The Guide (99 Names of Allah)',
+    metaTitle: 'Al Haadi Meaning: The Guide (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1519,9 +1514,9 @@ export const names = [
       meaning: 'The Incomparable Originator',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "نادر پیدا کرنے والا",
     },
-    metaTitle: 'AL-BADEE’ Meaning: The Incomparable Originator (99 Names of Allah)',
+    metaTitle: 'Al Badee’ Meaning: The Incomparable Originator (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1532,12 +1527,12 @@ export const names = [
     },
     english: {
       name: 'AL-BAAQI',
-      meaning: 'The Ever-Surviving, The Everlasting',
+      meaning: 'The Everlasting',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "ہمیشہ رہنے والا",
     },
-    metaTitle: 'AL-BAAQI Meaning: The Ever-Surviving, The Everlasting (99 Names of Allah)',
+    metaTitle: 'Al Baaqi Meaning: The Everlasting (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1551,9 +1546,9 @@ export const names = [
       meaning: 'The Inheritor, The Heir',
     },
     urdu: {
-      meaning: '$1',
+      meaning: 'سب کا وارث',
     },
-    metaTitle: 'AL-WAARITH Meaning: The Inheritor, The Heir (99 Names of Allah)',
+    metaTitle: 'Al Waarith Meaning: The Inheritor, The Heir (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1567,9 +1562,9 @@ export const names = [
       meaning: 'The Guide to the Right Path',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "ہدایت دینے والا، رہنمائی کرنے والا",
     },
-    metaTitle: 'AR-RASHEED Meaning: The Guide to the Right Path (99 Names of Allah)',
+    metaTitle: 'Ar Rasheed Meaning: The Guide to the Right Path (99 Names of Allah)',
     metaDescription: "",
   },
   {
@@ -1583,9 +1578,9 @@ export const names = [
       meaning: 'The Patient, The Timeless',
     },
     urdu: {
-      meaning: '$1',
+      meaning: "صبر کرنے والا",
     },
-    metaTitle: 'AS-SABOOR Meaning: The Patient, The Timeless (99 Names of Allah)',
+    metaTitle: 'As Saboor Meaning: The Patient, The Timeless (99 Names of Allah)',
     metaDescription: "",
   },
 ]
