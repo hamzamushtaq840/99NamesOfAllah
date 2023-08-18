@@ -16,7 +16,7 @@ async function getNameDetails(id) {
 }
 
 export async function generateMetadata({ params }) {
-    const name = names.find((val) => { return (val.englishName.toLocaleLowerCase() === params.id.toLocaleLowerCase()) })
+    const name = names.find((val) => { return (val.english.name.toLocaleLowerCase() === params.id.toLocaleLowerCase()) })
     return {
         title: name?.title,
         description: name?.meaning,
