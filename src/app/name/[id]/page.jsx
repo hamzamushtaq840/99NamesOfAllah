@@ -27,7 +27,7 @@ const SingleName = async ({ params }) => {
     const name = await getNameDetails(params.id)
 
     return (
-        <div className="flex flex-col items-center text-white bg-[#1F2937]  ">
+        <div className="flex flex-col items-center min-h-[100vh] bg-[#252836]">
             <Hero name={name} />
         </div>
     )
