@@ -18,13 +18,11 @@ export default function RootLayout({ children }) {
         <meta name="google-site-verification" content="sgu7AYl82pjqRA5kxBQyfIoGY_M7uPpMetTozLiySP4" />
       </head>
       <body className={inter.className}>
-        {/* <PageProvider> */}
         <Navbar />
         <Children>
           {children}
         </Children>
         <Analytics />
-        {/* </PageProvider> */}
       </body>
     </html>
   )
