@@ -48,31 +48,31 @@ const Hero = ({ name }) => {
         <aside className='max-w-[580px] flex flex-col'>
           <span className='text-center text-white rubik font-[600] text-xl'>QURAN</span>
           <div className='flex flex-col gap-6 mt-4'>
-            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Qur'an for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Qur'an for a total 114 times. Twice as much as the Ar-Rahman.
+            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.
             </p>
 
             <p className='quranAyah outfit flex flex-col p-4 rounded text-[#c5ccd3] text-justify leading-[28px] text-[16px]'>
               <span className='self-start text-[12px] font-[700] text-[#ccc] uppercase mb-1'>English Translation:</span>
-              "Say, “Call upon Allah or call upon the Most Merciful. Whichever [name] you call – to Him best names.” And do not recite [too] loudly in your prayer or [too] quietly but seek between [intermediate] way."
-              <span className='self-end text-[#2faee0] cursor-pointer'>— (Qur'an 17:110)</span>
+              &ldquo;Say, &ldquo;Call upon Allah or call upon the Most Merciful. Whichever [name] you call – to Him best names.” And do not recite [too] loudly in your prayer or [too] quietly but seek between [intermediate] way.&rdquo;
+              <span className='self-end text-[#2faee0] cursor-pointer'>— (Quran 17:110)</span>
             </p>
 
-            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Qur'an for a total 114 times. Twice as much as theAr-Rahman.</p>
+            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as theAr-Rahman.</p>
           </div>
         </aside>
 
         <aside className='max-w-[580px] flex flex-col'>
           <span className='text-center text-white rubik font-[600] text-xl'>HADITH</span>
           <div className='flex flex-col gap-6 mt-4'>
-            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Qur'an for a total 114 times. Twice as much as theAr-Rahman.</p>
+            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as theAr-Rahman.</p>
 
             <p className='bg-[#1F1D2B] quranAyah2 outfit flex flex-col p-4 rounded text-[#c5ccd3] text-justify leading-[28px] text-[16px]'>
               <span className='self-start text-[12px] font-[700] text-[#ccc] uppercase mb-1'>English Translation:</span>
-              "Say, “Call upon Allah or call upon the Most Merciful. Whichever [name] you call – to Him best names.” And do not recite [too] loudly in your prayer or [too] quietly but seek between [intermediate] way."
-              <span className='self-end text-[#2faee0] cursor-pointer'>— (Qur'an 17:110)</span>
+              &ldquo;Say, &ldquo;Call upon Allah or call upon the Most Merciful. Whichever [name] you call – to Him best names.” And do not recite [too] loudly in your prayer or [too] quietly but seek between [intermediate] way.&rdquo;
+              <span className='self-end text-[#2faee0] cursor-pointer'>— (Quran 17:110)</span>
             </p>
 
-            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Qur'an for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Qur'an for a total 114 times. Twice as much as the Ar-Rahman.
+            <p className='outfit text-[#c5ccd3] text-justify leading-[28px] text-[18px]'>From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.
             </p>
           </div>
         </aside>
