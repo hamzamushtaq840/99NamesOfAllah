@@ -3,7 +3,7 @@ import { names } from "@/utils/consts";
 import { notFound } from "next/navigation";
 
 async function getNameDetails(id) {
-    const res = await fetch(`http://localhost:3000/api/names/${id}`, {
+    const res = await fetch(`https://www.99namesofallah.site/api/names/${id}`, {
         cache: "no-store",
     });
 
