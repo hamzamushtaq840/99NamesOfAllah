@@ -45,7 +45,7 @@ const Hadith = () => {
     const timer = setTimeout(() => {
       setCurrentHadees((prevHadees) => (prevHadees === 0 ? 1 : 0));
       setFadeTrigger((prevTrigger) => !prevTrigger);
-    }, 4500);
+    }, 6000);
 
     return () => {
       clearTimeout(timer);

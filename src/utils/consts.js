@@ -3,7 +3,7 @@ export const names = [
     image: 'https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg',
     imageBrightness: '40%',
     arabic: {
-      name: 'ٱلرَّحْمَـٰنُ',
+      name: 'الرَّحْمَنُ',
     },
     english: {
       name: 'AR-RAHMAAN',
@@ -11,6 +11,41 @@ export const names = [
     },
     urdu: {
       meaning: "انتہائی مہربان",
+    },
+    singlePageData: {
+      intro: "The name Ar-Raheem comes from the same root as Ar-Rahman which refers to Allah's attribute of being Merciful. Although similarly related the meanings are different. Ar-Rahman can be understood to refer to Allah as the origination/source of all mercy, whereas Ar-Raheem refers to its sustaining/infiniteness. Some view the name of Ar-Raheem as being merciful to His creation deserving of mercy (primarily the mercy reserved for the believers).",
+      quranMentions: [
+        {
+          contentType: 'text',
+          content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`
+        },
+        {
+          contentType: 'ayah',
+          content: `“Say, “Call upon Allah or call upon the Most Merciful. Whichever [name] you call - to Him best names.” And do not recite [too] loudly in your prayer or [too] quietly but seek between [intermediate] way.”`,
+          ayahNo: '17:110',
+          link: 'https://quran.com/17/110',
+        },
+        {
+          contentType: 'text',
+          content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`
+        },
+      ],
+      hadithMentions: [
+        {
+          contentType: 'text',
+          content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as theAr-Rahman.`
+        },
+        {
+          contentType: 'ayah',
+          content: `“Say, “Call upon Allah or call upon the Most Merciful. Whichever [name] you call - to Him best names.” And do not recite [too] loudly in your prayer or [too] quietly but seek between [intermediate] way.”`,
+          ayahNo: '17:110',
+          link: 'https://quran.com/17/110',
+        },
+        {
+          contentType: 'text',
+          content: `From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.From the root ra-ha-mim (ر ح م), which has the following classical Arabic connotations: to have tenderness, kindness to love to have mercy, to have pity to show favor and goodness to have all that is required for beneficence.This Allah سُبْحَٰنَهُۥ وَتَعَٰلَىٰ is mentioned in the Quran for a total 114 times. Twice as much as the Ar-Rahman.`
+        },
+      ],
     },
     metaTitle: 'Ar Rahmaan Meaning: The Entirely Merciful (99 Names of Allah)',
     metaDescription: "Ar Raheem (Ar Rahim in arabic الرحيم) is one of the 99 names of Allah, meaning The Most Merciful. Ar Rahim the one who acts with extreme kindness",

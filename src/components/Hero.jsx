@@ -28,6 +28,28 @@ const Hero = () => {
 
   }, []);
 
+  // const videoRef = useRef(null);
+
+  // useEffect(() => {
+  //   const videoElement = videoRef.current;
+
+  //   const loopStart = 19; // Start loop at 5 seconds
+  //   const loopEnd = 27; // End loop at 10 seconds
+
+  //   const handleTimeUpdate = () => {
+  //     if (videoElement.currentTime >= loopEnd) {
+  //       videoElement.currentTime = loopStart; // Jump back to loop start
+  //     }
+  //   };
+
+  //   videoElement.addEventListener('timeupdate', handleTimeUpdate);
+
+  //   return () => {
+  //     videoElement.removeEventListener('timeupdate', handleTimeUpdate);
+  //   };
+  // }, []);
+
+
   // add this function to handle adding refs
   const addToRefs = (el) => {
     if (el && !titleRef.current.includes(el)) {
@@ -49,6 +71,17 @@ const Hero = () => {
         alt="The glimpse of Allah's Majesty"
         style={{ objectFit: "cover", filter: "brightness(70%)" }}
       />
+      {/* <div className="max-h-[100vh] min-h-[100vh] overflow-hidden">
+        <video
+          ref={videoRef}
+          autoPlay
+          muted
+          width={'100vw'}
+          className="w-[100vw] " style={{ filter: "brightness(70%)" }} >
+          <source src='/cave.mp4' type="video/mp4" />
+        </video>
+      </div> */}
+      {/* <div className="title absolute left-[50%] top-0 flex h-screen w-full translate-x-[-50%] flex-col text-center text-5xl xsm:text-[24px] leading-[1.4] text-white"> */}
       <div className="title absolute left-[50%] flex h-screen w-full translate-x-[-50%] flex-col text-center text-5xl xsm:text-[24px] leading-[1.4] text-white">
         <div className="relative top-[37%] flex translate-y-[-37%] flex-col items-center">
           <div className="h_title" ref={addToRefs}>
@@ -87,7 +120,7 @@ const Hero = () => {
                     belong the most beautiful names...”
                   </p>
                   <p className="albert head mt-[25px] xsm:text-base text-[18px] font-[300]">
-                    Surah Al-Hashr 59:24
+                    (Surah Al-Hashr 59:24)
                   </p>
                 </div>
               </span>
