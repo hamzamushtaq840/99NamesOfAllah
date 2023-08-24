@@ -48,7 +48,7 @@ export const names = [
       // ],
     },
     metaTitle: 'Ar Rahmaan Meaning: The Entirely Merciful (99 Names of Allah)',
-    metaDescription: "Ar Rahmaan (Ar Rahmaan in arabic الرَّحْمَنُ) is one of the 99 names of Allah, meaning The Most Merciful. Ar Rahmaan the one who compasses compassion, forgiveness, kindness, and understanding",
+    metaDescription: "Ar Rahmaan (Ar Rahmaan in arabic الرَّحْمَنُ) is one of the 99 names of Allah, meaning The Most Merciful. Ar Rahmaan is the one who compasses compassion, forgiveness, kindness, and understanding",
   },
   {
     image: 'https://i.pinimg.com/originals/a3/22/53/a32253bc408d53b57672dc0880856302.jpg',
