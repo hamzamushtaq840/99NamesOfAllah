@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className='header text-[40px] left-2 h-[80px] w-full z-20 pl-2 text-white fixed transition-all duration-500 ease-out will-change-transform transform  top-0 flex items-center gap-2'>
-      <h1 className='text-[18px] silk'>99NamesOfAllah</h1>
+    <nav className="header fixed left-2 top-0 z-20 flex h-[80px] w-full transform items-center gap-2 pl-2 text-[40px] text-white  transition-all duration-500 ease-out will-change-transform">
+      <h1 className="silk text-[18px]">99NamesOfAllah</h1>
     </nav>
   )
 }

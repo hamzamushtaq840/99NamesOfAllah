@@ -1,32 +1,28 @@
 'use client'
-import React, { useEffect, useRef } from "react";
-import Image from "next/image";
-import gsap from 'gsap';
-import { CustomEase } from 'gsap/CustomEase';
+import React, { useEffect, useRef } from 'react'
+import Image from 'next/image'
+import gsap from 'gsap'
+import { CustomEase } from 'gsap/CustomEase'
 
-gsap.registerPlugin(CustomEase);
-CustomEase.create('cubic-text', '0.25, 1, 0.5, 1');
+gsap.registerPlugin(CustomEase)
+CustomEase.create('cubic-text', '0.25, 1, 0.5, 1')
 
 const Hero = () => {
-  const titleRef = useRef([]);
+  const titleRef = useRef([])
 
   useEffect(() => {
     titleRef.current.forEach((title, index) => {
-      const el = title.querySelectorAll('span span');
-      const delay = index * 0.08;
+      const el = title.querySelectorAll('span span')
+      const delay = index * 0.08
 
-      gsap.to(
-        el,
-        {
-          y: 0,
-          duration: 1.5,
-          ease: 'cubic-text',
-          delay: delay
-        }
-      );
-    });
-
-  }, []);
+      gsap.to(el, {
+        y: 0,
+        duration: 1.5,
+        ease: 'cubic-text',
+        delay: delay,
+      })
+    })
+  }, [])
 
   // const videoRef = useRef(null);
 
@@ -49,11 +45,10 @@ const Hero = () => {
   //   };
   // }, []);
 
-
   // add this function to handle adding refs
-  const addToRefs = (el) => {
+  const addToRefs = el => {
     if (el && !titleRef.current.includes(el)) {
-      titleRef.current.push(el);
+      titleRef.current.push(el)
     }
   }
 
@@ -69,7 +64,7 @@ const Hero = () => {
         sizes="100vw"
         className="mx-auto max-w-[1920px] opacity-80"
         alt="The glimpse of Allah's Majesty"
-        style={{ objectFit: "cover", filter: "brightness(70%)" }}
+        style={{ objectFit: 'cover', filter: 'brightness(70%)' }}
       />
       {/* <div className="max-h-[100vh] min-h-[100vh] overflow-hidden">
         <video
@@ -82,10 +77,10 @@ const Hero = () => {
         </video>
       </div> */}
       {/* <div className="title absolute left-[50%] top-0 flex h-screen w-full translate-x-[-50%] flex-col text-center text-5xl xsm:text-[24px] leading-[1.4] text-white"> */}
-      <div className="title absolute left-[50%] flex h-screen w-full translate-x-[-50%] flex-col text-center text-5xl xsm:text-[24px] leading-[1.4] text-white">
+      <div className="title absolute left-[50%] flex h-screen w-full translate-x-[-50%] flex-col text-center text-5xl leading-[1.4] text-white xsm:text-[24px]">
         <div className="relative top-[37%] flex translate-y-[-37%] flex-col items-center">
           <div className="h_title" ref={addToRefs}>
-            <span className="overflow-hidden xsm:gap-2 flex items-center gap-4">
+            <span className="flex items-center gap-4 overflow-hidden xsm:gap-2">
               <span className="translate-y-full">
                 <p>Beyond Infinity</p>
               </span>
@@ -102,26 +97,23 @@ const Hero = () => {
             </span>
           </div>
           <div className="h_title" ref={addToRefs}>
-            <span className="overflow-hidden flex items-center gap-4">
+            <span className="flex items-center gap-4 overflow-hidden">
               <span className="translate-y-full">
-                <h1 className="flex gap-3 items-center xsm:gap-[3px]">
+                <h1 className="flex items-center gap-3 xsm:gap-[3px]">
                   <span>The 99 Names of Allah</span>
-                  <div className="gulzar mt-[-6px] xsm:text-lg text-3xl">ﷻ</div>
+                  <div className="gulzar mt-[-6px] text-3xl xsm:text-lg">ﷻ</div>
                 </h1>
               </span>
             </span>
           </div>
           <div className="h_title" ref={addToRefs}>
-            <span className="overflow-hidden flex items-center gap-4">
+            <span className="flex items-center gap-4 overflow-hidden">
               <span className="translate-y-full">
-                <div className="silk mt-[30px] flex w-[900px] flex-col xsm:w-[320px] xsm:text-base text-2xl text-[#ccc]">
+                <div className="silk mt-[30px] flex w-[900px] flex-col text-2xl text-[#ccc] xsm:w-[320px] xsm:text-base">
                   <p className="lime">
-                    “He is Allah, the Creator, the Originator, The Fashioner, to Him
-                    belong the most beautiful names...”
+                    “He is Allah, the Creator, the Originator, The Fashioner, to Him belong the most beautiful names...”
                   </p>
-                  <p className="albert head mt-[25px] xsm:text-base text-[18px] font-[300]">
-                    (Surah Al-Hashr 59:24)
-                  </p>
+                  <p className="albert head mt-[25px] text-[18px] font-[300] xsm:text-base">(Surah Al-Hashr 59:24)</p>
                 </div>
               </span>
             </span>
@@ -129,7 +121,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
