@@ -1,8 +1,8 @@
-import Children from '@/components/Children';
-import Navbar from '@/components/Navbar';
-import { Analytics } from '@vercel/analytics/react';
-import { Inter } from 'next/font/google';
-import './globals.css';
+import Children from '@/components/Children'
+import Navbar from '@/components/Navbar'
+import { Analytics } from '@vercel/analytics/react'
+import { Inter } from 'next/font/google'
+import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,9 +19,7 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className={inter.className}>
-        <Children>
-          {children}
-        </Children>
+        <Children>{children}</Children>
         <Analytics />
       </body>
     </html>
