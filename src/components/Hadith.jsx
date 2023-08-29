@@ -8,10 +8,7 @@ const Hadith = () => {
       singleHadith: (
         <div className="flex min-h-[225px] items-start gap-[40px] px-[100px] text-white xsm:flex-col xsm:gap-[20px] xsm:px-[32px] xsm:py-[60px]">
           <p className="lime min-w-[470px] text-[40px] xsm:min-w-0 xsm:text-[30px]">Sahih Muslim 2677</p>
-          <p className="outfit text-[25px] text-[#c5ccd3] ">
-            Abu Huraira reported: The Prophet, peace and blessings be upon him, said, “Allah has ninety-nine names, i.e.
-            one-hundred minus one, and whoever knows them will go to Paradise.”
-          </p>
+          <p className="outfit text-[25px] text-[#c5ccd3] ">Abu Huraira reported: The Prophet, peace and blessings be upon him, said, “Allah has ninety-nine names, i.e. one-hundred minus one, and whoever knows them will go to Paradise.”</p>
         </div>
       ),
     },
@@ -19,10 +16,7 @@ const Hadith = () => {
       singleHadith: (
         <div className="flex min-h-[225px] items-start gap-[40px] px-[100px] text-white xsm:flex-col xsm:gap-[20px] xsm:px-[32px] xsm:py-[60px]">
           <p className="lime min-w-[470px] text-[40px] xsm:min-w-0 xsm:text-[30px]">Surah Al-Isra 17:1107</p>
-          <p className="outfit text-[25px] text-[#c5ccd3] ">
-            Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever you call, He has the Most
-            Beautiful Names.”
-          </p>
+          <p className="outfit text-[25px] text-[#c5ccd3] ">Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever you call, He has the Most Beautiful Names.”</p>
         </div>
       ),
     },

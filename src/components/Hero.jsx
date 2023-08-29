@@ -110,9 +110,7 @@ const Hero = () => {
             <span className="flex items-center gap-4 overflow-hidden">
               <span className="translate-y-full">
                 <div className="silk mt-[30px] flex w-[900px] flex-col text-2xl text-[#ccc] xsm:w-[320px] xsm:text-base">
-                  <p className="lime">
-                    “He is Allah, the Creator, the Originator, The Fashioner, to Him belong the most beautiful names...”
-                  </p>
+                  <p className="lime">“He is Allah, the Creator, the Originator, The Fashioner, to Him belong the most beautiful names...”</p>
                   <p className="albert head mt-[25px] text-[18px] font-[300] xsm:text-base">(Surah Al-Hashr 59:24)</p>
                 </div>
               </span>

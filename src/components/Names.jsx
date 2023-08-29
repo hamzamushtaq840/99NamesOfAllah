@@ -21,18 +21,12 @@ const Names = () => {
                 filter: `brightness(${val.imageBrightness})`,
               }}
             />
-            <div className="absolute top-0 flex h-full w-full hover:bg-[#00000015]">
+            <div className=" absolute top-0 flex h-full w-full hover:bg-[#00000015]">
               <div className="absolute top-0 flex h-full w-full flex-col items-center justify-center text-white ">
-                <span className="sans absolute bottom-10 left-4 text-[75px] font-extrabold leading-[31px] opacity-[0.3]">
-                  {index + 1}
-                </span>
-                <p className="rakkas mt-[40px]  flex flex-1 items-end text-center text-[80px] xsm:text-[50px]">
-                  {val.arabic.name}
-                </p>
+                <span className="sans absolute bottom-10 left-4 text-[75px] font-extrabold leading-[31px] opacity-[0.3]">{index + 1}</span>
+                <p className="rakkas mt-[40px]  flex flex-1 items-end text-center text-[80px] xsm:text-[50px]">{val.arabic.name}</p>
                 <p className="syne mt-2 text-[24px] font-[700] tracking-wide xsm:text-[18px]">{val.english.name}</p>
-                <p className="lime flex-1 px-[30px] pt-10 text-center text-[24px] font-[400] italic xsm:text-[18px]">
-                  {val.english.meaning}
-                </p>
+                <p className="lime flex-1 px-[30px] pt-10 text-center text-[24px] font-[400] italic xsm:text-[18px]">{val.english.meaning}</p>
                 {/* <p className="gulzar flex-1 px-[30px] pt-10 text-center text-[30px] font-[400]  xsm:text-[18px]">
                   {val.urdu.meaning}
                 </p> */}
