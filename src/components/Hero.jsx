@@ -12,7 +12,7 @@ const Hero = () => {
 
   useEffect(() => {
     titleRef.current.forEach((title, index) => {
-      const el = title.querySelectorAll('span span')
+      const el = title.querySelectorAll('div span')
       const delay = index * 0.08
 
       gsap.to(el, {
@@ -80,7 +80,7 @@ const Hero = () => {
       <div className="title absolute left-[50%] flex h-screen w-full translate-x-[-50%] flex-col text-center text-5xl leading-[1.4] text-white xsm:text-[24px]">
         <div className="relative top-[37%] flex translate-y-[-37%] flex-col items-center">
           <div className="h_title" ref={addToRefs}>
-            <span className="flex items-center gap-4 overflow-hidden xsm:gap-2">
+            <div className="flex items-center gap-4 overflow-hidden xsm:gap-2">
               <span className="translate-y-full">
                 <p>Beyond Infinity</p>
               </span>
@@ -94,28 +94,37 @@ const Hero = () => {
                   height={20}
                 />
               </span>
-            </span>
+            </div>
           </div>
           <div className="h_title" ref={addToRefs}>
-            <span className="flex items-center gap-4 overflow-hidden">
+            <div className="flex items-center gap-4 overflow-hidden">
               <span className="translate-y-full">
                 <h1 className="flex items-center gap-3 xsm:gap-[3px]">
                   <span>The 99 Names of Allah</span>
                   <div className="gulzar mt-[-6px] text-3xl xsm:text-lg">ﷻ</div>
                 </h1>
               </span>
-            </span>
+            </div>
           </div>
           <div className="h_title" ref={addToRefs}>
-            <span className="flex items-center gap-4 overflow-hidden">
+            <div className="flex items-center gap-4 overflow-hidden">
               <span className="translate-y-full">
                 <div className="silk mt-[30px] flex w-[900px] flex-col text-2xl text-[#ccc] xsm:w-[320px] xsm:text-base">
                   <p className="lime">“He is Allah, the Creator, the Originator, The Fashioner, to Him belong the most beautiful names...”</p>
                   <p className="albert head mt-[25px] text-[18px] font-[300] xsm:text-base">(Surah Al-Hashr 59:24)</p>
                 </div>
               </span>
-            </span>
+            </div>
           </div>
+        </div>
+        <div className='absolute bottom-5 left-[49.5%] translate-x-[-49.5%]'>
+          <Image
+            src="/abc2.gif"
+            className="xsm:w-[30px] "
+            alt="Infinity"
+            width={40}
+            height={80}
+          />
         </div>
       </div>
     </section>
