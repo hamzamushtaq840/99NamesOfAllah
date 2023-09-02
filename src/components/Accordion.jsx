@@ -37,7 +37,6 @@ const Accordion = () => {
                 </svg>
               </span>
             </button>
-
             <div className="poppins text-[14px] text-[#ccccccda]">{section.content}</div>
           </div>
         </div>
