@@ -117,13 +117,13 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className='absolute bottom-5 left-[49.5%] translate-x-[-49.5%]'>
+        <div className='absolute bottom-5 xsm:bottom-20 left-[49.5%] translate-x-[-49.5%]'>
           <Image
-            src="/abc2.gif"
-            className="xsm:w-[30px] "
+            src="/abc3.gif"
+            className="xsm:w-[50px] "
             alt="Infinity"
-            width={40}
-            height={80}
+            width={70}
+            height={70}
           />
         </div>
       </div>

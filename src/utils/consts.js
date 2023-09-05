@@ -1,3 +1,5 @@
+import { GoDot } from 'react-icons/go'
+
 export const names = [
   {
     image: 'https://i.pinimg.com/originals/d1/65/97/d165973ecc3dd541529a2d2cdeaf2c11.jpg',
@@ -1241,7 +1243,7 @@ export const names = [
       name: 'ٱلْبَاطِنُ',
     },
     english: {
-      name: 'Al Baatin',
+      name: 'AL-BAATIN',
       meaning: 'The Hidden, The Unmanifest, The Inner',
     },
     urdu: {
@@ -1693,5 +1695,33 @@ export const accordions = [
         Remember that sincerity and devotion are crucial. As you learn and reflect upon the attributes of Allah, your spiritual connection will strengthen, making the memorization an even more enriching experience.
       </p>
     ),
+  },
+]
+
+export let hadiths = [
+  {
+    singleHadith: (
+      <div className="flex min-h-[225px] items-start gap-[40px] px-[100px] text-white xsm:flex-col xsm:gap-[20px] xsm:px-[32px] xsm:py-[60px]">
+        <p className="lime min-w-[470px] text-[40px] xsm:min-w-0 xsm:text-[30px]">Sahih Muslim 2677</p>
+        <p className="outfit text-[25px] text-[#c5ccd3] ">Abu Huraira reported: The Prophet, peace and blessings be upon him, said, “Allah has ninety-nine names, i.e. one-hundred minus one, and whoever knows them will go to Paradise.”</p>
+      </div>
+    ),
+  },
+  {
+    singleHadith: (
+      <div className="flex min-h-[225px] items-start gap-[40px] px-[100px] text-white xsm:flex-col xsm:gap-[20px] xsm:px-[32px] xsm:py-[60px]">
+        <p className="lime min-w-[470px] text-[40px] xsm:min-w-0 xsm:text-[30px]">Surah Al-Isra 17:1107</p>
+        <p className="outfit text-[25px] text-[#c5ccd3] ">Say, ˹O Prophet,˺ “Call upon Allah or call upon the Most Compassionate—whichever you call, He has the Most Beautiful Names.”</p>
+      </div>
+    ),
+  },
+]
+
+export let dots = [
+  {
+    name: <GoDot className="cursor-pointer fill-white" />,
+  },
+  {
+    name: <GoDot className="cursor-pointer fill-white" />,
   },
 ]
